@@ -1,0 +1,52 @@
+{
+  "name": "SDU Campus Guide",
+  "short_name": "SDU Guide",
+  "description": "Навигатор по кампусу Suleyman Demirel University — карта, расписания, бронирование аудиторий",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#4C6740",
+  "background_color": "#4C6740",
+  "lang": "ru",
+  "categories": ["education", "navigation"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Карта кампуса",
+      "short_name": "Карта",
+      "url": "/detailed-map",
+      "description": "Интерактивная карта кампуса"
+    },
+    {
+      "name": "События",
+      "short_name": "События",
+      "url": "/event",
+      "description": "Предстоящие события SDU"
+    },
+    {
+      "name": "Мои бронирования",
+      "short_name": "Бронирования",
+      "url": "/my-bookings",
+      "description": "Управление бронированием аудиторий"
+    }
+  ]
+}

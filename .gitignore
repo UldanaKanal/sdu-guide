@@ -1,0 +1,18 @@
+# Frontend dependencies
+sdu-guide-front/node_modules/
+sdu-guide-front/build/
+
+# Backend binary
+sdu-guide-back/server
+
+# Uploads (runtime volume, seed data в db/schedules/ коммитим)
+# sdu-guide-back/uploads/ — не включаем (монтируется как volume)
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
