@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import campusMap from "./Components/assets/campus3.png";
+import campusMap from "./Components/assets/campusMapNew.jpg";
 import {
     ExternalLink, MapPin, Info, Users,
     SlidersHorizontal, Map, QrCode,

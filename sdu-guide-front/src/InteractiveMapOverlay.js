@@ -1,18 +1,31 @@
 import React from "react";
 
 const ZONES = [
-    { id: "Zone A",     x: 432,  y: 185, color: "#E8734A" },
-    { id: "Eat Zone",   x: 1030, y: 480, color: "#4AA8E8" },
-    { id: "Red Cantin", x: 910,  y: 475, color: "#C94040" },
-    { id: "Bochka A",   x: 610,  y: 520, color: "#4C9E7A" },
-    { id: "Bochka B",   x: 672,  y: 490, color: "#7A6CC9" },
-    { id: "Bochka C",   x: 748,  y: 518, color: "#C97A2A" },
-    { id: "Bochka D",   x: 842,  y: 496, color: "#3D7AC9" },
-    { id: "Zone H",     x: 370,  y: 358, color: "#7A4CC9" },
-    { id: "WIFI Zone",  x: 456,  y: 488, color: "#4CAA44" },
-    { id: "Hall",       x: 1210, y: 500, color: "#C9A020" },
-    { id: "Lab",        x: 1315, y: 490, color: "#5A9EC9" },
-    { id: "Game Zone",  x: 1390, y: 620, color: "#C94A7A" },
+    // Left side — entrance & small blocks
+    { id: "Zone A",     x: 115,  y: 390, color: "#E8734A" },   // teal building, left entrance
+    { id: "Zone H",     x: 272,  y: 448, color: "#7A4CC9" },   // purple circular building, left-center
+
+    // Four cylindrical Bochka lounges — bottom-center
+    { id: "Bochka A",   x: 553,  y: 468, color: "#4C9E7A" },
+    { id: "Bochka B",   x: 646,  y: 468, color: "#7A6CC9" },
+    { id: "Bochka C",   x: 755,  y: 455, color: "#C97A2A" },
+    { id: "Bochka D",   x: 858,  y: 455, color: "#3D7AC9" },
+
+    // Eat Zone — food court around the cylindrical area
+    { id: "Eat Zone",   x: 695,  y: 515, color: "#4AA8E8" },
+
+    // Large cyan Hall — center-right
+    { id: "Hall",       x: 1005, y: 488, color: "#C9A020" },
+
+    // WIFI Zone — gap/open area between Hall and right blocks
+    { id: "WIFI Zone",  x: 1145, y: 488, color: "#4CAA44" },
+
+    // Red Cantin — orange-coral building, bottom right-center
+    { id: "Red Cantin", x: 1195, y: 472, color: "#C94040" },
+
+    // Lab & Game Zone — right-side gray structures
+    { id: "Lab",        x: 1355, y: 475, color: "#5A9EC9" },
+    { id: "Game Zone",  x: 1430, y: 530, color: "#C94A7A" },
 ];
 
 const PIN_R = 14;
